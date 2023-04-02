@@ -17,3 +17,5 @@ module.exports = {
   addContact,
   updateContact,
 }
+
+console.log(123123);
