@@ -24,6 +24,7 @@ const contacts = new Schema(
     favorite: {
       type: Boolean,
       default: false,
+      
     },
   },
   { versionKey: false, timestamps: false }
