@@ -18,6 +18,8 @@ const {
   logout,
 } = require("../../controllers/auth.js");
 
+
+
 router.post("/register", registerValidation, authWrapper(registr));
 router.post("/login", loginValidation, authWrapper(login));
 router.patch(
